@@ -2,14 +2,14 @@ import React from 'react'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 
-import Header from './Components/Home/Header/Header'
+import Home from './Components/Home/Home'
 
 import './App.scss'
 
 function App() {
   return (
     <>
-      <Header />
+      <Home />
     </>
   );
 }

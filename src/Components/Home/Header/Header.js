@@ -15,10 +15,10 @@ const innerWrapperStyles = {
 };
 
 const mottoStyles = {
-    color: "rgb(0, 54, 0)",
+    color: "white",
     width: "400px",
     height: "auto",
-    marginRight: "3em",
+    paddingRight: "3em",
     marginTop: "3em",
     fontSize: "1.5rem"
 };
@@ -37,7 +37,7 @@ const buttonStyles = {
 const Header = () => {
     return (
         <Container className="wrapper" fluid>
-            <Navbar style={navbarStyles} fixed='top'>
+            <Navbar style={navbarStyles} bg='success' fixed='top'>
                 <Container style={innerWrapperStyles}>
                     <Navbar.Brand href="/">WEKA</Navbar.Brand>
 
@@ -51,7 +51,7 @@ const Header = () => {
                 </Container>
             </Navbar>
 
-            <Row>
+            <Row style={{paddingBottom: "3em"}}>
                 <Col sm={12} className="text-right" style={mottoStyles}>
                     <h1>
                         Invest. <br />
