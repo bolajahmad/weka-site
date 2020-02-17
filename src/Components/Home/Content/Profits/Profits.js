@@ -6,13 +6,13 @@ import { Row, Col, Button } from 'react-bootstrap'
 const Profits = () => {
     return (
         <>
-            <Row>
+            <Row style={{background: "rgb(72, 223, 72)", padding: '5em'}}>
                 <Col sm={12} md={6} className='text-center' style={{padding: '10em'}}>
                     Image Goes here
                     {/* <Image /> */}
                 </Col>
 
-                <Col sm={12} md={6} style={{background: "green", padding: "1em", color: 'white'}}>
+                <Col sm={12} md={6} style={{padding: "1em", color: 'white'}}>
                     <Row>
                         <Col as='h3' sm={12} className='text-center'>
                             Make Profits

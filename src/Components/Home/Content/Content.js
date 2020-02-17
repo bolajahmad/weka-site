@@ -9,7 +9,7 @@ import Contact from './Contact/Contact'
 
 const Content = () => {
     return (
-        <Container>
+        <Container fluid>
             <Partnership />
             <Profits />
             <Recommendations />

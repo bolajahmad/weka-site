@@ -15,7 +15,7 @@ const placeholder = {
 const Partnership = () => {
     return (
         <>
-            <Row>
+            <Row style={{padding: '5em'}}>
                 <Col sm={12} md={6}>
                     <Row>
                         <Col as='h3' sm={12}>
